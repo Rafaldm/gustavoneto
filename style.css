@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+/* LOGO */
+.logo img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+/* FOTO */
+.foto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+  margin-bottom: 10px;
+}
+
+/* DADOS */
+.dados {
+  margin-top: 6px;
+  text-align: left;
+}
+
+.dados h3 {
+  margin: 0 0 10px;
+  text-align: center;
+  color: #1a3b5d;
+}
+
+.lista-dados {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista-dados li {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+}
+
+.rotulo {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: #64748b;
+}
+
+.valor {
+  display: block;
+  margin-top: 2px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* TREINAMENTOS */
+.treinamentos {
+  margin-top: 18px;
+  text-align: left;
+}
+
+.treinamentos h3 {
+  text-align: center;
+  margin-bottom: 12px;
+  color: #1a3b5d;
+}
+
+.treinamentos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.treinamentos li {
+  background: #f7f9fb;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  border-left: 4px solid #28a745;
+}
+
+.grupo-treinamento {
+  margin-bottom: 14px;
+}
+
+.grupo-treinamento h4 {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  color: #1f2937;
+}
+
+.nome-curso {
+  display: block;
+  font-weight: bold;
+  color: #111827;
+}
+
+.vencimento {
+  display: block;
+  margin-top: 4px;
+  color: #374151;
+  font-size: 13px;
+}
+
+/* BOTÃO */
+.botao {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background: #0056b3;
+}
